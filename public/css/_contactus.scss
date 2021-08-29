@@ -1,0 +1,53 @@
+.contactus{
+    background-color: $cpxWhite;
+    height: $fulldisplay;
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left{
+        text-align: left;
+
+        h1{
+            text-align: left;
+        }
+
+        p{
+            margin-top: 50px;
+        }
+    }
+
+    &__right{
+        display: block;
+        width: 475px;
+
+        &--names{
+            display: flex;         
+            justify-content: space-between;   
+        }
+
+        &--emails{
+            margin-top: 25px;
+            
+            input{
+                width: 100%;
+            }
+        }
+
+        &--numbers{
+            margin-top: 25px;
+            
+            input{
+                width: 100%;
+            }
+        }
+
+        &--textarea{
+            padding-top: 25px;
+        }
+
+        button{
+            margin-top: 25px;
+        }
+    }
+}

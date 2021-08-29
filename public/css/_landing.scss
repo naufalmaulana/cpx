@@ -1,0 +1,85 @@
+.landing{
+    background-image: url('/assets/img/home_background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $fulldisplay;
+
+    &__navbar{
+        width: 100%;
+        padding: 50px;
+        padding-bottom: 0px;
+        ul{
+            margin-top: 25px;
+            display: inline;
+            text-align: right;
+            display: flex;
+            justify-content: flex-end;
+
+            li{
+                padding: 10px;
+                list-style-type: none;
+
+                a{
+                    color: $cpxYellow;
+                    text-decoration: none;
+                    text-transform: uppercase;
+
+                    &:hover{
+                        opacity: 70%;
+                    }
+                }
+            }
+        }
+    }
+
+    &__text{
+        padding: 0px 110px;
+        color: $cpxYellow;
+
+        &--h1{
+            color: $cpxYellow;
+            font-size: 48px;
+            text-align: left;
+            margin-top: 70px;
+        }
+
+        &--tagline{
+            font-weight: bold;
+            font-size: $size22;
+            padding-top: 10px;
+        }
+
+        &--uses{
+            color: $cpxWhite;
+            font-size: $size24;
+            font-weight: lighter;
+            padding-top: 50px;
+        }
+
+        &--plays{
+            img{
+                margin-top: 25px;
+                width: 150px;
+                cursor: pointer;
+            }
+        }
+
+        &--apps{
+            img{
+                margin-top: 25px;
+                width: 150px;
+                cursor: pointer;
+            }
+        }
+
+        &--logo{
+            width: 250px;
+            margin-top: -50px;
+        }
+        
+        &--btn{
+            margin-top: 25px;
+        }
+    }
+}

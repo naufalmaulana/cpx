@@ -1,0 +1,36 @@
+.locations{
+    background-image: url('/assets/img/locations_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $fulldisplay;
+
+    h1{
+        color: $cpxWhite;
+        padding-top: 25px;
+    }
+
+    &__container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-top: 150px;
+
+        &--content{
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            img{
+                width: 349px;
+                height: 272px;
+            }
+        }
+    }
+
+    &__dots{
+        width: fit-content;
+        margin: auto;
+        padding-top: 100px;
+    }
+}

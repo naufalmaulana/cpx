@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="38" viewBox="0 0 212 38">
+  <g id="Group_1" data-name="Group 1" transform="translate(106 -168)">
+    <g id="sign-in-with-appple" transform="translate(-106 168)">
+      <g id="Rectangle" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1">
+        <rect width="212" height="38" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="211" height="37" rx="3.5" fill="none"/>
+      </g>
+      <text id="Sign_in_with_Apple" data-name="Sign in with Apple" transform="translate(55 26)" font-size="15" font-family="SegoeUI, Segoe UI" letter-spacing="-0.013em"><tspan x="0" y="0">Sign in with Facebook</tspan></text>
+    </g>
+    <g id="facebook-app-symbol" transform="translate(-108.26 177.53)">
+      <path id="f_1_" d="M45.028,18.94V10.3h3.513l.527-3.368h-4.04V4.784c0-.975.327-1.639,2.023-1.639h2.16V.132C48.837.092,47.555,0,46.062,0c-3.116,0-5.249,1.569-5.249,4.45V6.934H37.29V10.3h3.524V18.94Z" fill="#010002"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+.aboutus{
+    background-color: $cpxWhite;
+    .aboutus-container{
+        padding: 50px 25px;
+        padding-top: 100px;
+        width: 60%;
+        margin: auto;
+        display: flex;
+        height: $quarterdisplay;
+        justify-content: space-between;
+    
+        &__left{
+            font-size: $size16;
+            h1{
+                text-align: left;
+                font-size: 48px;
+            }
+
+            h2{
+                font-weight: bold;
+            }
+
+            &--h1-motto{
+                color: $cpxYellow;
+                text-transform: uppercase;
+            }
+    
+            p{
+                margin-top: 25px;
+                // font-size: $size12;
+            }
+        }
+    }
+}
+
+.our-team{
+    padding: 50px 25px;
+    padding-top: 100px;
+    width: 60%;
+    height: $quarterdisplay;
+    margin: auto;
+    h1{
+        text-transform: uppercase;
+    }
+    &__container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        grid-gap: 70px;
+
+        &--content{
+            display: block;
+            margin-top: 25px;
+            h2{
+                font-weight: bold;
+                color: $cpxYellow;
+                text-align: center;
+            }
+            p{
+                color: $cpxBlack;
+                font-weight: 600;
+                text-align: center;
+            }
+        }
+    }
+}
